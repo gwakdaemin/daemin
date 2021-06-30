@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
 
-      <Route exact path="/">
+      <Route exact path="/daeminportfolio">
 
         <haeder className="header">
           <h1 className="headerTitle">
-            <Link to="/">Daemin-Portfolio</Link>
+            <Link to="/daeminportfolio">Daemin-Portfolio</Link>
           </h1>
           <ul className="headerDeac">
             <li className="headerDeac ab">
@@ -95,7 +95,7 @@ function App() {
 
         <haeder className="header">
           <h1 className="headerTitle">
-            <Link to="/">Daemin-Portfolio</Link>
+            <Link to="/daeminportfolio">Daemin-Portfolio</Link>
           </h1>
           <ul className="headerDeac">
             <li className="headerDeac ab">
@@ -142,7 +142,7 @@ function App() {
 
         <haeder className="header">
           <h1 className="headerTitle">
-            <Link to="/">Daemin-Portfolio</Link>
+            <Link to="/daeminportfolio">Daemin-Portfolio</Link>
           </h1>
           <ul className="headerDeac">
             <li className="headerDeac ab">
