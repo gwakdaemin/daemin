@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+// import img from './img/container.jpg';
 import './App.css';
 import React, { useState } from 'react';
-
 import { Link, Route } from 'react-router-dom';
 
 function App() {
@@ -117,21 +116,21 @@ function App() {
             <header className="portfolioHeader ca">
               <h1>계산기</h1>
               <a href='https://gwakdaemin.github.io/container/calculator.html' target='_blank' className="portfolioDeac">
-                <img className="img" src="https://gwakdaemin.github.io/img/calculator.jpg"></img>
+                <img className="img" src="img/container.jpg"></img>
               </a>
             </header>
 
             <header className="portfolioHeader ma">
               <h1>마크업</h1>
               <a href='https://gwakdaemin.github.io/markup/final_file/01-Landing.html' target='_blank' className="portfolioDeac">
-                <img className="img" src="https://gwakdaemin.github.io/img/make.jpg"></img>
+                <img className="img" src="img/make.jpg"></img>
               </a>
             </header>
 
             <header className="portfolioHeader mahome">
               <h1>홈페이지 마크업</h1>
               <a href='https://gwakdaemin.github.io/' target='_blank' className="portfolioDeac">
-                <img className="img" src="https://gwakdaemin.github.io/img/pa.jpg"></img>
+                <img className="img" src="img/homemake.jpg"></img>
               </a>
             </header>
             
