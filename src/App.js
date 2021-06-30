@@ -82,8 +82,8 @@ function App() {
             <header className="aboutHeader footor">
               <h1>Education</h1>
               <ul className="aboutDeac">
-                <li>-김버그의 HTML&CSS는 재밌다-  수료👨‍🎓</li>
-                <li>-coding apple React sass-  수료👨‍🎓</li>
+                <li>-김버그의 HTML&CSS는 재밌다-수료👨‍🎓</li>
+                <li>-coding apple React sass-수료👨‍🎓</li>
               </ul>
             </header>
 
