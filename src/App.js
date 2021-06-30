@@ -128,7 +128,7 @@ function App() {
 
             <header className="portfolioHeader mahome">
               <h1>홈페이지 마크업</h1>
-              <a href='https://gwakdaemin.github.io/' target='_blank' className="portfolioDeac">
+              <a href='https://gwakdaemin.github.io/shop/' target='_blank' className="portfolioDeac">
                 <img className="img" src="img/homemake.jpg"></img>
               </a>
             </header>
