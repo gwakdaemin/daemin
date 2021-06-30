@@ -1,4 +1,3 @@
-// import img from './img/container.jpg';
 import './App.css';
 import React, { useState } from 'react';
 import { Link, Route } from 'react-router-dom';
