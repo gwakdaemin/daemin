@@ -1,3 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Reset CSS  */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: 'Gaegu', cursive;
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2b292d;
+    letter-spacing: -0.01em;
+}
+
+
+.btnBase {
+  border: 0px;
+  display: inline-block;
+  padding: 9px 10px;
+  height: 35px;
+  background: rgb(48, 51, 58);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+}
+
+.bodyMail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e2e1e1;
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 50%) 1px 2px 5px;
+  width: 600px;
+  height: 500px;
+  font-size: 50px;
+  transition: color 500ms ease-in-out;
+}
+
+.mailBlank:hover {
+  color: #008B8B;
+  animation: mailVibrate 1300ms ease-in-out infinite;
+}
+
+.bottom .author {
+  float: left;
+}
+
+.bmmrXc .bottom {
+  border-top: 1px solid rgb(221, 221, 221);
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +103,261 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.header {
+  border-bottom: 2px solid #000000;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+}
+
+.headerTitle {
+  margin-right: 20px;
+}
+
+.headerDeac {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  list-style: none;
+  opacity: 0.8;
+}
+
+.headerDeac.ab,
+.headerDeac.po {
+  transition: opacity 300ms ease-in-out,
+              color 300ms ease-in-out; 
+}
+
+.headerDeac.ab:hover,
+.headerDeac.po:hover {
+  opacity: 1;
+  color: #0090b8b4;
+}
+
+.body {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #F0FFFF;
+}
+
+.bodyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.911);
+  border-radius: 10px;
+  width: 800px;
+  height: 100vh;
+  box-shadow: rgb(0 0 0 / 50%) 1px 2px 5px;
+}
+
+.bodyHeaderUnder {
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+.bodyTextarea {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 3px;
+  width: 750px;
+  height: 100px;
+  font-size: 20px;
+  resize: none;
+}
+
+.aboutHeader.title {
+  animation: aboutHeaderTitle 1500ms ease-in-out;
+}
+
+.aboutHeader.deac {
+  animation: aboutHeaderDeac 1500ms ease-in-out;
+}
+
+.aboutHeader.footor {
+  animation: aboutHeaderFootor 1500ms ease-in-out;
+}
+
+.mail {
+  animation: aboutHeaderMail 1500ms ease-in-out;
+}
+
+.aboutBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutBar strong {
+  font-weight: 700;
+}
+
+.geaphbar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  padding-left: 2px;
+  font-weight: 700;
+  width: 250px;
+  height: 25px;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+}
+
+.geaphbarGauge.ja,
+.geaphbarGauge.re,
+.geaphbarGauge.ht,
+.geaphbarGauge.css,
+.geaphbarGauge.sass {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 50%;
+  height: 17px;
+  background-color: #61dafb;
+  border-radius: 100px;
+  animation-name: geaphbaranRe;
+  animation-duration: 3s;
+  animation-delay: 300ms;
+}
+
+.geaphbarGauge.ja {
+  width: 30%;
+  animation-duration: 3s;
+  animation-name: geaphbaranJa;
+}
+
+.geaphbarGauge.ht {
+  width: 85%;
+  animation-duration: 3s;
+  animation-name: geaphbaranHt;
+}
+
+.geaphbarGauge.css {
+  width: 70%;
+  animation-duration: 3s;
+  animation-name: geaphbaranCss;
+}
+
+.geaphbarGauge.sass {
+  width: 40%;
+  animation-duration: 3s;
+  animation-name: geaphbaranSass;
+}
+
+.bodyList {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  background-color: #ffffff;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgb(221, 221, 221);
+  transition: border 0.2s ease 0s, box-shadow 0.2s ease 0s;
+  border-radius: 3px;
+}
+
+
+.content-area {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.bottom {
+  border-top: 1px solid rgb(221, 221, 221);
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.fontSize {
+  font-size: 19px;
+}
+
+.bodyHeader.about {
+  padding: 30px;
+  background-color: #e2e1e1;
+}
+
+.portfolioHeader,
+.aboutHeader {
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  
+}
+
+
+.portfolioDeac,
+.aboutDeac {
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid rgb(221, 221, 221);
+  background-color: #eeeeee;
+}
+
+
+.bodyHeader.portfolio {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #e2e1e1;
+}
+
+.portfolioHeader {
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.portfolioDeac {
+  height: 300px;
+
+}
+
+.portfolioHeader.ca a,
+.portfolioHeader.ma a,
+.portfolioHeader.mahome a {
+  transition: border 500ms ease-in-out;
+}
+
+.portfolioHeader.ca a:hover,
+.portfolioHeader.ma a:hover,
+.portfolioHeader.mahome a:hover {
+  border: 5px solid rgb(172, 172, 172);
+}
+
+.portfolioHeader.ca,
+.portfolioHeader.ma,
+.portfolioHeader.mahome {
+  animation: portfolioHeader 700ms ease-in-out;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +387,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes mailVibrate {
+  0% { font-size: 100%; }
+  50% { font-size: 90%; }
+  100% { font-size: 100%; }
+}
+
+@keyframes portfolioHeader {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes aboutHeaderTitle {
+  0% { margin-left: 100%; opacity: 0; }
+  100% { margin-left: 0%; opacity: 1; }
+}
+
+@keyframes aboutHeaderDeac {
+  0% { margin-left: 100%; opacity: 0; }
+  20% { margin-left: 100%; opacity: 0; }
+  100% { margin-left: 0%; opacity: 1; }
+}
+
+@keyframes aboutHeaderFootor {
+  0% { margin-left: 100%; opacity: 0; }
+  50% { margin-left: 100%; opacity: 0; }
+  100% { margin-left: 0%; opacity: 1; }
+}
+
+@keyframes aboutHeaderMail {
+  0% {  opacity: 0; }
+  100% {  opacity: 1; }
+}
+
+@keyframes geaphbaranRe {
+  0% { background-color: #ccc; width: 7%; }
+  20% { background-color: #ccc; width: 7%; }
+  100% { background-color: #61dafb; width: 50%; }
+}
+
+@keyframes geaphbaranJa {
+  0% { background-color: #ccc; width: 7%; }
+  20% { background-color: #ccc; width: 7%; }
+  100% { background-color: #61dafb; width: 30%; }
+}
+
+@keyframes geaphbaranHt {
+  0% { background-color: #ccc; width: 7%; }
+  20% { background-color: #ccc; width: 7%; }
+  100% { background-color: #61dafb; width: 85%; }
+}
+
+@keyframes geaphbaranCss {
+  0% { background-color: #ccc; width: 7%; }
+  20% { background-color: #ccc; width: 7%; }
+  100% { background-color: #61dafb; width: 70%; }
+}
+
+@keyframes geaphbaranSass {
+  0% { background-color: #ccc; width: 7%; }
+  20% { background-color: #ccc; width: 7%; }
+  100% { background-color: #61dafb; width: 40%; }
+}
+
+/* >= 768px (Desktop) */
+@media (max-width: 767px) {
+  .headerTitle {
+    font-size: 19px; 
+  }
+
+  .bodyHeader {
+    width: 300px;
+    height: 800px;
+  }
+
+  .geaphbar {
+    width: 200px;
+    margin-left: 0;
+  }
+
+  .aboutDeac {
+    font-size: 17px;
+  }
+
+  .bodyHeader.portfolio {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 800px;
+  }
+
+  .portfolioHeader.ca,
+  .portfolioHeader.ma,
+  .portfolioHeader.mahome {
+    width: 200px;
+    height: 200px;
+  }
+
+  .portfolioHeader a{
+    width: 200px;
+    height: 200px;
+  }
+
+  .portfolioHeader h1 {
+    font-size: 25px;
+  }
+
+
+  .mail {
+    width: 300px;
+    font-size: 30px;
+  }
+  
 }
