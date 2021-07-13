@@ -16,13 +16,13 @@ function App() {
           <h1 className="headerTitle">
             <Link to="/">Daemin-Portfolio</Link>
           </h1>
-          <ul className="headerDeac">
-            <li className="headerDeac ab">
+          <ul className="headerDesc">
+            <li className="headerDesc ab">
               <Link to="/Portfolio">
                 Portfolio
               </Link>
             </li>
-            <li className="headerDeac po">
+            <li className="headerDesc po">
               <Link to="/contact">
                 contact
               </Link>
@@ -34,7 +34,7 @@ function App() {
           <div className="bodyHeader about">
             <header className="aboutHeader title">
               <h1>Self Introduction</h1>
-              <ul className="aboutDeac">
+              <ul className="aboutDesc">
                 <li>이름: 곽대민(Gwak Damon)</li>
                 <li>생일: 1992.08.09</li>
                 <li>주소: 화성시(Hwaseong-si, Republic of Korea) </li>
@@ -42,19 +42,19 @@ function App() {
               </ul>
             </header>
 
-            <header className="aboutHeader deac">
+            <header className="aboutHeader desc">
               <h1>Skill</h1>
-              <ul className="aboutDeac box">
+              <ul className="aboutDesc box">
                 <li className="aboutBar">
                   <p>JAVASCRIPT</p>
                     <span className="geaphbar">
-                      <p className="geaphbarGauge ja">30%</p>
+                      <p className="geaphbarGauge ja">70%</p>
                     </span>
                 </li>
                 <li className="aboutBar">
                   <p>REACT</p>
                   <span className="geaphbar">
-                    <p className="geaphbarGauge re">50%</p>
+                    <p className="geaphbarGauge re">30%</p>
                   </span>
                 </li>
                 <li className="aboutBar">
@@ -72,7 +72,7 @@ function App() {
                 <li className="aboutBar">
                   <p>SASS</p>
                   <span className="geaphbar">
-                    <p className="geaphbarGauge sass">40%</p>
+                    <p className="geaphbarGauge sass">30%</p>
                   </span>
                 </li>
               </ul>
@@ -80,7 +80,7 @@ function App() {
 
             <header className="aboutHeader footor">
               <h1>Education</h1>
-              <ul className="aboutDeac">
+              <ul className="aboutDesc">
                 <li>-김버그의 HTML&CSS는 재밌다-수료👨‍🎓</li>
                 <li>-coding apple React sass-수료👨‍🎓</li>
               </ul>
@@ -96,13 +96,13 @@ function App() {
           <h1 className="headerTitle">
             <Link to="/">Daemin-Portfolio</Link>
           </h1>
-          <ul className="headerDeac">
-            <li className="headerDeac ab">
+          <ul className="headerDesc">
+            <li className="headerDesc ab">
               <Link to="/Portfolio">
                 Portfolio
               </Link>
             </li>
-            <li className="headerDeac po">
+            <li className="headerDesc po">
               <Link to="/contact">
                 contact
               </Link>
@@ -114,25 +114,24 @@ function App() {
           <div className="bodyHeader portfolio">
             <header className="portfolioHeader ca">
               <h1>계산기</h1>
-              <a href='https://gwakdaemin.github.io/container/calculator.html' target='_blank' className="portfolioDeac">
+              <a href='https://gwakdaemin.github.io/container/calculator.html' target='_blank' className="portfolioDesc">
                 <img className="img" src="img/container.jpg"></img>
               </a>
             </header>
 
             <header className="portfolioHeader ma">
               <h1>마크업</h1>
-              <a href='https://gwakdaemin.github.io/markup/final_file/01-Landing.html' target='_blank' className="portfolioDeac">
+              <a href='https://gwakdaemin.github.io/markup/final_file/01-Landing.html' target='_blank' className="portfolioDesc">
                 <img className="img" src="img/make.jpg"></img>
               </a>
             </header>
 
             <header className="portfolioHeader mahome">
               <h1>홈페이지 마크업</h1>
-              <a href='https://gwakdaemin.github.io/shop/' target='_blank' className="portfolioDeac">
+              <a href='https://gwakdaemin.github.io/shop/' target='_blank' className="portfolioDesc">
                 <img className="img" src="img/homemake.jpg"></img>
               </a>
             </header>
-            
           </div>
         </body>
       </Route>
@@ -143,13 +142,13 @@ function App() {
           <h1 className="headerTitle">
             <Link to="/">Daemin-Portfolio</Link>
           </h1>
-          <ul className="headerDeac">
-            <li className="headerDeac ab">
+          <ul className="headerDesc">
+            <li className="headerDesc ab">
               <Link to="/Portfolio">
                 Portfolio
               </Link>
             </li>
-            <li className="headerDeac po">
+            <li className="headerDesc po">
               <Link to="/contact">
                 contact
               </Link>

@@ -117,7 +117,7 @@ p {
   margin-right: 20px;
 }
 
-.headerDeac {
+.headerDesc {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -127,14 +127,14 @@ p {
   opacity: 0.8;
 }
 
-.headerDeac.ab,
-.headerDeac.po {
+.headerDesc.ab,
+.headerDesc.po {
   transition: opacity 300ms ease-in-out,
               color 300ms ease-in-out; 
 }
 
-.headerDeac.ab:hover,
-.headerDeac.po:hover {
+.headerDesc.ab:hover,
+.headerDesc.po:hover {
   opacity: 1;
   color: #0090b8b4;
 }
@@ -181,8 +181,8 @@ p {
   animation: aboutHeaderTitle 1500ms ease-in-out;
 }
 
-.aboutHeader.deac {
-  animation: aboutHeaderDeac 1500ms ease-in-out;
+.aboutHeader.desc {
+  animation: aboutHeaderDesc 1500ms ease-in-out;
 }
 
 .aboutHeader.footor {
@@ -223,7 +223,7 @@ p {
   display: flex;
   align-items: center;
   padding-left: 10px;
-  width: 50%;
+  width: 30%;
   height: 17px;
   background-color: #61dafb;
   border-radius: 100px;
@@ -233,7 +233,7 @@ p {
 }
 
 .geaphbarGauge.ja {
-  width: 30%;
+  width: 70%;
   animation-duration: 3s;
   animation-name: geaphbaranJa;
 }
@@ -251,7 +251,7 @@ p {
 }
 
 .geaphbarGauge.sass {
-  width: 40%;
+  width: 30%;
   animation-duration: 3s;
   animation-name: geaphbaranSass;
 }
@@ -304,8 +304,8 @@ p {
 }
 
 
-.portfolioDeac,
-.aboutDeac {
+.portfolioDesc,
+.aboutDesc {
   padding: 15px;
   border-radius: 5px;
   border: 2px solid rgb(221, 221, 221);
@@ -328,7 +328,7 @@ p {
   width: 300px;
 }
 
-.portfolioDeac {
+.portfolioDesc {
   height: 300px;
 
 }
@@ -405,7 +405,7 @@ p {
   100% { margin-left: 0%; opacity: 1; }
 }
 
-@keyframes aboutHeaderDeac {
+@keyframes aboutHeaderDesc {
   0% { margin-left: 100%; opacity: 0; }
   20% { margin-left: 100%; opacity: 0; }
   100% { margin-left: 0%; opacity: 1; }
@@ -425,13 +425,13 @@ p {
 @keyframes geaphbaranRe {
   0% { background-color: #ccc; width: 7%; }
   20% { background-color: #ccc; width: 7%; }
-  100% { background-color: #61dafb; width: 50%; }
+  100% { background-color: #61dafb; width: 30%; }
 }
 
 @keyframes geaphbaranJa {
   0% { background-color: #ccc; width: 7%; }
   20% { background-color: #ccc; width: 7%; }
-  100% { background-color: #61dafb; width: 30%; }
+  100% { background-color: #61dafb; width: 70%; }
 }
 
 @keyframes geaphbaranHt {
@@ -449,7 +449,7 @@ p {
 @keyframes geaphbaranSass {
   0% { background-color: #ccc; width: 7%; }
   20% { background-color: #ccc; width: 7%; }
-  100% { background-color: #61dafb; width: 40%; }
+  100% { background-color: #61dafb; width: 30%; }
 }
 
 /* >= 768px (Desktop) */
@@ -468,7 +468,7 @@ p {
     margin-left: 0;
   }
 
-  .aboutDeac {
+  .aboutDesc {
     font-size: 17px;
   }
 
