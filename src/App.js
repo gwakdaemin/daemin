@@ -4,9 +4,6 @@ import { Link, Route } from 'react-router-dom';
 
 function App() {
 
-  let [guestTextarea, guestTextareachange] = useState([]);
-  let [guestPush, guestPushchange] = useState('');
-
   return (
     <div className="App">
 
