@@ -109,13 +109,6 @@ function App() {
         
         <body className="body">
           <div className="bodyHeader portfolio">
-            <header className="portfolioHeader ca">
-              <h1>계산기</h1>
-              <a href='https://gwakdaemin.github.io/container/calculator.html' target='_blank' className="portfolioDesc">
-                <img className="img" src="img/container.jpg"></img>
-              </a>
-            </header>
-
             <header className="portfolioHeader ma">
               <h1>마크업</h1>
               <a href='https://gwakdaemin.github.io/markup/final_file/01-Landing.html' target='_blank' className="portfolioDesc">
